@@ -5,8 +5,8 @@ import { useForm } from "../hooks/useForm";
 
 const Form = ({ handleAddTask }) => {
   const initialState = {
-    nombre: "tarea",
-    descripcion: "tateatteatattetaetaet",
+    nombre: "",
+    descripcion: "",
     estado: "pendiente",
     prioridad: false,
   };
