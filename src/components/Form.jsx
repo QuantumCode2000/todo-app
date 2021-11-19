@@ -78,7 +78,7 @@ const Form = ({ handleAddTask }) => {
           className="form-control mb-2"
         >
           <option value="pendiente">pendiente</option>
-          <option value="finalizado">finalizado</option>
+          <option value="alerta roja">alerta roja</option>
         </select>
         <div className="form-check">
           <input
